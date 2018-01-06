@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.edu.tarc.staff.checkProgressActivity">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StudName"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+    <TextView
+        android:id="@+id/textViewClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StudClass"/>
+
+    <ProgressBar
+        android:id="@+id/StudentProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="108dp" />
+
+</RelativeLayout>

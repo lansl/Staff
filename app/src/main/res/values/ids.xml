@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_add_box_black_24dp" type="id">
+        <![CDATA[<item name="ic_add_box_black_24dp" type="drawable">@android:drawable/ic_add_box_black_24dp</item>]]></item>
+    <item name="nav_delete_sweep_black_24dp" type="id">nav_delete_sweep_black_24dp</item>
+    <item name="nav_edit_black_24dp" type="id">nav_edit_black_24dp</item>
+    <item name="nav_menu_manage" type="id">nav_menu_manage</item>
+    <item name="nav_settings_black_24dp" type="id">nav_settings_black_24dp</item>
+</resources>
